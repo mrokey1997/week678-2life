@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar.AllMainColor" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorSecondary">@color/backgroundColor</item>
+        <item name="android:background">@color/mainColor</item>
+    </style>
+
+    <style name="Toolbar.WhiteTextColorSecondary" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorSecondary">@color/backgroundColor</item>
+    </style>
+
+    <!-- ****************** BARON ****************** -->
+    <style name="body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/normalTextColor</item>
+    </style>
+
+    <style name="body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/normalTextColor</item>
+    </style>
+
+    <style name="body3">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="h6headline">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="h5headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="subtitle1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/normalTextColor</item>
+    </style>
+
+    <style name="subtitle2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/normalTextColor</item>
+    </style>
+
+    <style name="PrimaryColoredButton" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTintMode">@color/backgroundColor</item>
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+
+    <style name="ItemDetailTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/mainColor</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/anim_transition</item>
+    </style>
+
+</resources>

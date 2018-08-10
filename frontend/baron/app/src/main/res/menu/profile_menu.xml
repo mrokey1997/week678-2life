@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/info"
+        android:title="@string/change_info"/>
+
+    <item
+        android:id="@+id/change_password"
+        android:title="@string/change_pass"/>
+    <item
+        android:id="@+id/change_avatar"
+        android:orderInCategory="5"
+        android:title="@string/update_avatar"
+        app:showAsAction="never"/>
+</menu>

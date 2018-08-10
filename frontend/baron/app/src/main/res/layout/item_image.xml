@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="1dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="0dp"
+        android:scaleType="centerCrop"
+        android:src="@color/black" />
+
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:elevation="0dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_close_white_24dp"
+        android:elevation="1dp"
+        android:visibility="invisible" />
+</FrameLayout>

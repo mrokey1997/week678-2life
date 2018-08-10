@@ -1,0 +1,6 @@
+around
+balcony
+gates
+mezzanine
+noble
+room
